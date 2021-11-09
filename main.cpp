@@ -22,9 +22,9 @@ int main() {
     /**
      * Running through vectors
      */
-    vector<string> v { "Hello, ", "World", "!" };
-    for (auto & i : v) {
-        cout << i;
+    vector<string> strings { "Hello, ", "World", "!" };
+    for (auto & phrase : strings) {
+        cout << phrase;
     }
     cout << endl;
 
