@@ -23,8 +23,8 @@ int main() {
      * Running through vectors
      */
     vector<string> v { "Hello, ", "World", "!" };
-    for (int i = 0; i < v.size(); ++i) {
-        cout << v[i];
+    for (auto & i : v) {
+        cout << i;
     }
     cout << endl;
 
