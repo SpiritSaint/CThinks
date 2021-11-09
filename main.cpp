@@ -14,18 +14,19 @@ int main() {
     /**
      * Anonymous function as variable
      */
-    auto x = [](const string & phrase) {
+    auto anon = [](const string & phrase) {
         cout << phrase << endl;
     };
-    x("Hello, World!");
+    anon("Hello, World!");
 
     /**
      * Running through vectors
      */
-    vector<int> v { 10, 20, 30};
+    vector<string> v { "Hello, ", "World", "!" };
     for (int i = 0; i < v.size(); ++i) {
-        cout << v[i] << endl;
+        cout << v[i];
     }
+    cout << endl;
 
     return 0;
 }
