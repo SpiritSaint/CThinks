@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -16,8 +17,15 @@ int main() {
     auto x = [](const string & phrase) {
         cout << phrase << endl;
     };
-
     x("Hello, World!");
+
+    /**
+     * Running through vectors
+     */
+    vector<int> v { 10, 20, 30};
+    for (int i = 0; i < v.size(); ++i) {
+        cout << v[i] << endl;
+    }
 
     return 0;
 }
