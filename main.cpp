@@ -3,6 +3,8 @@
 
 using namespace std;
 
+
+
 int main() {
     /**
      * Anonymous function directly invoked
@@ -27,6 +29,22 @@ int main() {
         cout << phrase;
     }
     cout << endl;
+
+    /**
+     * String from
+     */
+    string input;
+    getline(cin, input);
+    cout << input;
+
+    /**
+     * Data types
+     */
+    char    A = 'A';
+    bool    B = true;
+    int     C = 10;
+    float   F = 10000.0;
+    double  G = 10.0;
 
     return 0;
 }
